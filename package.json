@@ -3,13 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://osclee.github.io/tic-tac-toe/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "host": "vite --host"
+    "host": "vite --host",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "vite": "^5.4.1"
   }
 }
