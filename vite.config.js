@@ -2,5 +2,5 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/tic-tac-tow/"
+  base: "/tic-tac-toe/"
 })
