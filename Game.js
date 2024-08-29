@@ -63,7 +63,6 @@ class Game {
                 return
             }
             if (this.currentPlayer == 1) {
-                //console.log("AI Turn")
                 //document.querySelector("#winner").textContent = `Player one's turn`
                 this.currentPlayer = 2
                 this.checkForWin()
